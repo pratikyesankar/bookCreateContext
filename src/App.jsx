@@ -22,7 +22,7 @@ const App = () => {
           <Routes>
             <Route path="/all-books" element={<BookList />} />
             <Route path="/add-book" element={<AddBook />} />
-            <Route path="/" element={<BookList />} /> {/* Default route */}
+            <Route path="/" element={<BookList />} />
           </Routes>
         </div>
       </Router>
